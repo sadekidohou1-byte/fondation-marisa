@@ -92,7 +92,7 @@ const InstitutionalPage = () => {
             <p className="text-emerald-100/60 text-lg font-medium">Vous souhaitez collaborer sur des projets à grande échelle ou devenir un partenaire stratégique ?</p>
             <div className="pt-4">
               <a 
-                href="mailto:marisafrique@gmail.com" 
+                href="mailto:marisfrique@gmail.com" 
                 className="bg-amber-500 text-emerald-950 px-12 py-6 rounded-2xl font-black text-xs tracking-widest uppercase inline-flex items-center gap-4 hover:bg-white transition-all shadow-xl"
               >
                 Contacter le Secrétariat <ChevronRight size={18}/>

@@ -30,7 +30,7 @@ const AboutPage = () => {
           />
         </div>
         <div className="max-w-7xl mx-auto relative z-10 text-center">
-          <h2 className="text-amber-500 font-black text-sm uppercase tracking-[0.5em] mb-6 italic">Fondation MARISA Afrique</h2>
+          <h2 className="text-amber-500 font-black text-sm uppercase tracking-[0.5em] mb-6 italic">Fondation maris Afrique</h2>
           <h1 className="text-6xl md:text-[100px] text-white font-bold uppercase leading-none mb-8 tracking-tighter">
             Vision <span className="text-amber-400">Afrique.</span>
           </h1>
@@ -45,14 +45,14 @@ const AboutPage = () => {
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center">
           <div className="relative">
             <img 
-              src="https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?auto=format&fit=crop&q=80&w=1000" 
+              src="https://i.pinimg.com/1200x/f0/42/d2/f042d27ddd1efc36f68b6dbcb185c718.jpg" 
               className="rounded-[3rem] shadow-2xl relative z-10" alt="Présentation" 
             />
           </div>
           <div className="space-y-8">
             <h3 className="text-4xl md:text-5xl font-black text-emerald-950 uppercase tracking-tighter">Présentation <br/> <span className="text-emerald-600">Générale</span></h3>
             <p className="text-slate-500 text-lg leading-relaxed font-medium">
-              La <span className="text-emerald-800 font-black">Fondation MARISA Afrique</span> est une organisation à vocation humanitaire, interreligieuse et sociale. 
+              La <span className="text-emerald-800 font-black">Fondation maris Afrique</span> est une organisation à vocation humanitaire, interreligieuse et sociale. 
               Elle œuvre pour la paix, le développement et l’harmonie entre les peuples à travers le soutien aux confessions religieuses, 
               la formation des jeunes, l’appui aux orphelins et orphelinats, la sensibilisation à la santé et la construction de lieux de culte.
             </p>
@@ -92,7 +92,7 @@ const AboutPage = () => {
           <AxisCard icon={<GraduationCap/>} title="Éducation" text="Formation professionnelle gratuite, numérique et alphabétisation." />
           <AxisCard icon={<Activity/>} title="Santé" text="Campagnes de dépistage, dons de sang et assistance aux malades." />
           <AxisCard icon={<Scale/>} title="Paix & Cohésion" text="Séminaires interreligieux, médiation et conférences de paix." />
-          <AxisCard icon={<Megaphone/>} title="Communication" text="Visibilité média via MarisaTV et caravanes de sensibilisation." />
+          <AxisCard icon={<Megaphone/>} title="Communication" text="Visibilité média via marisTV et caravanes de sensibilisation." />
         </div>
       </section>
 
@@ -115,7 +115,7 @@ const AboutPage = () => {
           <div className="space-y-10 text-left">
             <h3 className="text-4xl font-black uppercase tracking-tighter italic">Nos Partenaires</h3>
             <div className="grid sm:grid-cols-2 gap-6">
-              {['ONG Nationales & Inter', 'Églises & Mosquées', 'États & Ministères', 'Diaspora Africaine', 'Fondations Philanthropiques', 'MarisaTV'].map((item) => (
+              {['ONG Nationales & Inter', 'Églises & Mosquées', 'États & Ministères', 'Diaspora Africaine', 'Fondations Philanthropiques', 'marisTV'].map((item) => (
                 <div key={item} className="flex items-center gap-3 bg-white/5 p-4 rounded-xl border border-white/10">
                   <Handshake className="text-amber-500" size={20} />
                   <span className="font-bold text-[10px] uppercase tracking-widest">{item}</span>
@@ -135,7 +135,7 @@ const AboutPage = () => {
           </div>
           <div className="lg:col-span-2 space-y-8">
             <ProjectRow number="01" text="Construction de 10 lieux de culte dans 5 pays africains." />
-            <ProjectRow number="02" text="Lancement officiel du Centre MARISA de Formation à Cotonou." />
+            <ProjectRow number="02" text="Lancement officiel du Centre maris de Formation à Cotonou." />
             <ProjectRow number="03" text="Programme d'appui direct à 100 orphelins et 10 orphelinats." />
             <ProjectRow number="04" text="Organisation du Forum International Interreligieux pour la Paix." />
           </div>
