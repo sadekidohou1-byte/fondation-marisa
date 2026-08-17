@@ -25,7 +25,7 @@ const AboutPage = () => {
       <section className="relative py-32 px-6 overflow-hidden bg-emerald-950">
         <div className="absolute inset-0 opacity-20">
           <img 
-            src="https://images.unsplash.com/photo-1526948128573-703ee1aeb6fa?auto=format&fit=crop&q=80&w=2000" 
+            src="https://i.pinimg.com/736x/dc/fe/9d/dcfe9d657c69ea72c4e262f21bddde96.jpg" 
             alt="Impact Social Afrique" className="w-full h-full object-cover"
           />
         </div>
@@ -45,7 +45,7 @@ const AboutPage = () => {
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center">
           <div className="relative">
             <img 
-              src="https://i.pinimg.com/1200x/f0/42/d2/f042d27ddd1efc36f68b6dbcb185c718.jpg" 
+              src="https://i.pinimg.com/1200x/c8/61/40/c8614016ade233688f8e83a78659f350.jpg" 
               className="rounded-[3rem] shadow-2xl relative z-10" alt="Présentation" 
             />
           </div>

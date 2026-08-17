@@ -5,13 +5,17 @@ const GalleryPage = () => {
   const [activeTab, setActiveTab] = useState('photos'); 
   const [selectedVideo, setSelectedVideo] = useState(null); 
 
-  const photos = [
-    { id: 1, category: 'formation', url: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=800', title: 'Cours de Numérique' },
-    { id: 2, category: 'social', url: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=800', title: 'Donation Orphelinat' },
-    { id: 3, category: 'religion', url: 'https://images.unsplash.com/photo-1544427920-c49ccfb85579?q=80&w=800', title: 'Rencontre Interreligieuse' },
+const photos = [
+    { id: 1, category: 'formation', url: 'https://i.pinimg.com/1200x/c5/01/7d/c5017d3bb56ea8ea0af68fee8be34055.jpg', title: 'Cours de Numérique' },
+    { 
+      id: 2, 
+      category: 'social', 
+      url: 'https://i.pinimg.com/1200x/77/1c/6f/771c6f45491dcdf4af6a296749219fe8.jpg', 
+      title: 'Donation Orphelinat' 
+    },
+    { id: 3, category: 'religion', url: 'https://i.pinimg.com/1200x/1e/50/0a/1e500a30cea7925a3a16728290781f85.jpg', title: 'Rencontre Interreligieuse' },
     { id: 4, category: 'formation', url: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=800', title: 'Atelier Artisanat' },
-  ];
-
+];
   const videos = [
     { 
         id: 1, 

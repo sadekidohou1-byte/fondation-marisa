@@ -4,22 +4,26 @@ import { Sprout, Beef, ShieldCheck } from 'lucide-react';
 const AgriculturePage = () => {
     return (
         <div className="pt-24 animate-in fade-in duration-700">
-            {/* Hero Section Page */}
-            <section className="bg-emerald-950 py-20 px-6">
-                <div className="max-w-7xl mx-auto">
-                    <h1 className="text-5xl md:text-7xl font-black text-white uppercase tracking-tighter">
-                        Agriculture & <br />
-                        <span className="text-amber-400">Élevage au Bénin</span>
+            
+            {/* --- NOUVELLE HERO SECTION (STYLE VISION AFRIQUE) --- */}
+            <section className="relative py-32 px-6 overflow-hidden bg-emerald-950">
+               
+
+                <div className="max-w-7xl mx-auto relative z-10 text-center pt-10">
+                    <h2 className="text-amber-500 font-black text-sm uppercase tracking-[0.5em] mb-6 italic">
+                        Fondation maris Afrique
+                    </h2>
+                    <h1 className="text-6xl md:text-[100px] text-white font-bold uppercase leading-none mb-8 tracking-tighter">
+                        Agri & <span className="text-amber-400">Élevage.</span>
                     </h1>
-                    <p className="text-emerald-100/60 max-w-2xl mt-6 text-lg font-medium">
-                        Découvrez comment nous modernisons les pratiques ancestrales pour garantir
-                        la sécurité alimentaire et l'autonomie des producteurs béninois.
+                    <p className="text-emerald-50/70 text-xl max-w-2xl mx-auto font-medium leading-relaxed">
+                        "Moderniser nos terres pour nourrir l'avenir du Bénin et bâtir une autonomie durable par le savoir-faire."
                     </p>
                 </div>
             </section>
 
-            {/* Section Agriculture - IMAGE PINTEREST ICI */}
-            <section className="py-20 px-6 bg-white">
+            {/* --- SECTION AGRICULTURE (PÔLE VÉGÉTAL) --- */}
+            <section className="py-24 px-6 bg-white">
                 <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
                     <div>
                         <h2 className="text-xs font-black text-amber-600 uppercase tracking-[0.4em] mb-4">Pôle Végétal</h2>
@@ -40,26 +44,25 @@ const AgriculturePage = () => {
                         </div>
                     </div>
 
-                    {/* Bloc Image avec ton lien Pinterest */}
                     <div className="rounded-[3rem] overflow-hidden shadow-2xl h-[500px]">
                         <img
-                            src="https://i.pinimg.com/1200x/d2/31/3b/d2313bf47264e5aad16515bc9070ef32.jpg" // Note: J'ai converti ton lien en lien direct image
+                            src="https://i.pinimg.com/originals/d2/31/3b/d2313bf47264e5aad16515bc9070ef32.jpg"
                             alt="Agriculture Bénin"
                             className="w-full h-full object-cover"
                             onError={(e) => {
-                                e.target.src = "https://images.unsplash.com/photo-1592982537447-7440770cbfc9?q=80&w=1000"; // Image de secours si Pinterest bloque
+                                e.target.src = "https://images.unsplash.com/photo-1592982537447-7440770cbfc9?q=80&w=1000";
                             }}
                         />
                     </div>
                 </div>
             </section>
 
-            {/* Section Élevage */}
-            <section className="py-20 px-6 bg-slate-50">
+            {/* --- SECTION ÉLEVAGE (PÔLE ANIMAL) --- */}
+            <section className="py-24 px-6 bg-slate-50">
                 <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center flex-row-reverse">
                     <div className="order-2 md:order-1 rounded-[3rem] overflow-hidden shadow-2xl h-[500px]">
                         <img
-                            src="https://i.pinimg.com/1200x/8b/91/4d/8b914dd4bc589af1243f44f84374c1db.jpg"
+                            src="https://i.pinimg.com/originals/8b/91/4d/8b914dd4bc589af1243f44f84374c1db.jpg"
                             alt="Élevage Bénin"
                             className="w-full h-full object-cover"
                         />
